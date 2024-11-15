@@ -28,12 +28,12 @@ class Function;
 /**
  * Control for enabling/disabling objects when a function value is true
  */
-class GolemConditionalFunctionEnableControl : public ConditionalEnableControl
+class ConditionalFunctionEnableControl : public ConditionalEnableControl
 {
 public:
   static InputParameters validParams();
 
-  GolemConditionalFunctionEnableControl(const InputParameters & parameters);
+  ConditionalFunctionEnableControl(const InputParameters & parameters);
 
 protected:
   virtual bool conditionMet(const unsigned int & i) override;

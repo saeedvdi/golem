@@ -18,7 +18,7 @@
 /*    along with this program.  If not, see <http://www.gnu.org/licenses/>    */
 /******************************************************************************/
 
-#include "GolemConditionalFunctionEnableControl.h"
+#include "ConditionalFunctionEnableControl.h"
 #include "Function.h"
 
 registerMooseObject("GolemApp", ConditionalFunctionEnableControl);
